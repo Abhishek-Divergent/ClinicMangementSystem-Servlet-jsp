@@ -12,8 +12,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Clinic Management System</title>
 <link rel="stylesheet" href="resources/CSS/bootstrap.min.css">
-<link rel="stylesheet" href="resources/CSS/all.css">
-<link rel="stylesheet" href="resources/CSS/fontawesome.css">
 <script
 	src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
 	integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -27,11 +25,11 @@
 	<header>
 		<div>
 			<div style="text-align: center;">
-				<h1>Clinic Management System</h1>
+				<h1><b> Clinic Management System </b></h1>
 			</div>
 		</div>
 	</header>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="row">
 				<div class="col-md-12">
@@ -40,7 +38,7 @@
 						<fieldset>
 
 							<!-- Form Name -->
-							<legend style="text-align: center;"> ADD DOCTOR</legend>
+							<legend style="text-align: center;"> <b>ADD DOCTOR</b></legend>
 
 					
 
@@ -116,9 +114,9 @@
 
 			<div class="row ">
 				<div class="col">
-					<legend style="text-align: center;">DOCTOR List</legend>
+					<legend style="text-align: center;"><b>DOCTOR LIST</b></legend>
 					<div class="table-responsive">
-						<table id="example" class="table .table-dark table-bordered ">
+						<table id="example" class="table table-dark table-bordered ">
 							<thead>
 								<tr>
 								    

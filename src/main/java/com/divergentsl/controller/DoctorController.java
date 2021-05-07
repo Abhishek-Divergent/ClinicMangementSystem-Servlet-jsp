@@ -53,7 +53,6 @@ public class DoctorController extends HttpServlet {
 		doctor.setPassword(doctorPassword);
 		doctor.setSpeciality(doctorSpeciality);
 		doctorCrudService.create(doctor);
-
 		List<Doctor> doctorList = doctorCrudService.read();
 		req.setAttribute("doctorList", doctorList);
 		RequestDispatcher dispatcher = req.getRequestDispatcher("Doctor.jsp");
